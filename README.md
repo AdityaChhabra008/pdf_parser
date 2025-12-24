@@ -15,7 +15,7 @@ This project provides a two-step pipeline:
 
 **Why this approach?**
 
-Legal/regulatory documents like zoning bylaws follow predictable structural patterns but vary in formatting across jurisdictions. A rule-based heuristic approach was chosen over ML-based extraction because:
+Legal/regulatory documents like zoning bylaws follow predictable structural patterns but vary in formatting across jurisdictions. A rule-based heuristic approach was chosen because:
 
 1. **Deterministic output**: Same input always produces same output, critical for legal document processing
 2. **No training data required**: Works immediately on new document types without labeled datasets
